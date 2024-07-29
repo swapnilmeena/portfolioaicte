@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#skills {
+    padding: 50px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.skills-container, .tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill, .tool {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill h2, .tool h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.skill p, .tool p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .skill, .tool {
+        width: 100%;
+        max-width: 500px;
+    }
+}

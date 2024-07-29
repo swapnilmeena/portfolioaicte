@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#academics {
+    padding: 50px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #d32f2f; /* Red color */
+    margin-bottom: 30px;
+}
+
+.education, .achievements {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #d32f2f; /* Red border */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education h2, .achievements h1 {
+    color: #d32f2f; /* Red color */
+    margin-top: 0;
+}
+
+.education-details p, .achievements ul {
+    color: #333;
+    margin: 10px 0;
+}
+
+.education-details p strong, .achievements ul li {
+    color: #d32f2f; /* Red color */
+}
+
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.achievements ul li:last-child {
+    border-bottom: none;
+}
